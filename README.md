@@ -40,9 +40,9 @@ Chaque mail envoyé peut contenir par défaut 10 destinataires et 10 pièces joi
 
 ## Charge de travail
 
-Temps de codage avec recherche des solutions et mise en place = 2h-2h30
-Solution pour le serveur SMTP = 1h30
-Création de l'exécutable exportable = 2h
+Temps de codage avec recherche des solutions et mise en place = 2h-2h30.   
+Solution pour le serveur SMTP = 1h30.   
+Création de l'exécutable exportable = 2h.  
 
 Mon plus gros problème a été la création de l'exécutable avec Visual Studio.
 Le problème venait d'une erreur de compréhension et du blocage de l'adresse gmail sur un ordinateur non vérifié.
