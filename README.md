@@ -16,8 +16,8 @@ N.B : Ces dossiers sont fournis dans le Git.
 Pour qu'un mail soit envoyé, il faut mettre un dossier dans le répertoire A_traiter. 
 Ce dossier peut avoir n'importe quel nom et doit contenir un fichier .dst et un fichier .txt.
 Le fichier dst contient:
-  -Les noms des pièces jointes préfixés de FPG_ (ex : pj.pdf devient FPG_pj dans le fichier). Ces noms sont facultatifs.
-  -Les adresses mail des destinataires. Au moins une adresse est nécessaire
+  * Les noms des pièces jointes préfixés de FPG_ (ex : pj.pdf devient FPG_pj dans le fichier). Ces noms sont facultatifs.
+  * Les adresses mail des destinataires. Au moins une adresse est nécessaire
 Le fichier txt contient le corps du mail. Il est facultatif.
 Attention si le dossier contient plusieurs ficheirs .txt ou .dst alors un seul sera pris en compte.
 
@@ -31,10 +31,10 @@ Chaque mail envoyé peut contenir par défaut 10 destinataires et 10 pièces joi
 
 ##Point d'amélioration
 
--La taille de l'exécutable est lourd
--Au lancement du programme proposer des paramètres à l'utilisateur (ex: nombres de destinataires maximum ou fréquence de traitement)
--Crypter le mot de passe de l'adresse mail...
--... ou utiliser un serveur SMTP à installer sur la machine directement (plus compliqué)
+* La taille de l'exécutable est lourd
+* Au lancement du programme proposer des paramètres à l'utilisateur (ex: nombres de destinataires maximum ou fréquence de traitement)
+* Crypter le mot de passe de l'adresse mail...
+* ... ou utiliser un serveur SMTP à installer sur la machine directement (plus compliqué)
 
 
 
