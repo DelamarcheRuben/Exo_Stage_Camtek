@@ -36,6 +36,7 @@ Chaque mail envoyé peut contenir par défaut 10 destinataires et 10 pièces joi
 * Crypter le mot de passe de l'adresse mail...
 * ... ou utiliser un serveur SMTP à installer sur la machine directement (plus compliqué)
 
+Pour reprendre le travail à partir du code source il faut installer le package MailKit, par exemple via Nuget : Install-Package MailKit.   
 
 
 ## Charge de travail
@@ -45,4 +46,4 @@ Solution pour le serveur SMTP = 1h30.
 Création de l'exécutable exportable = 2h.  
 
 Mon plus gros problème a été la création de l'exécutable avec Visual Studio.
-Le problème venait d'une erreur de compréhension et du blocage de l'adresse gmail sur un ordinateur non vérifié.
+Le problème venait d'une erreur de compréhension dans la publication de l'exécutable et du blocage de l'adresse gmail sur un ordinateur non vérifié.
